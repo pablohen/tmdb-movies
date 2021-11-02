@@ -35,6 +35,7 @@ const MoviePage = (props: Props) => {
 
   useEffect(() => {
     !!movieId && setSelectedMovieId(Number(movieId));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [movieId]);
 
   return (
