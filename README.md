@@ -17,9 +17,11 @@ Consumo de uma API e uso do Context API [https://tmdb-movies-eight.vercel.app](h
 
 ## Back-end:
 
-- [The Movie DataBase v3](https://developers.themoviedb.org/3)
+- [TMDB v3](https://developers.themoviedb.org/3)
 
 ### Comentários:
 
 - Instalação das dependências via 'npm i' ou 'yarn install'
+- Renomear o arquivo '.env.example' para '.env.local'
+- Colar a sua api_key de desenvolvedor, obtida no site oficial do TMDB https://www.themoviedb.org
 - Iniciar pelo script 'start', conforme o que está no 'package.json'
